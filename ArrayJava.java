@@ -3,7 +3,7 @@ public class ArrayJava{
   public static void main(String args[])
   {
     System.out.println("Enter the size of array");
-    Scanner sc=new Scanner(System.In);
+    Scanner sc=new Scanner(System.in);
     int n=sc.nextInt();
     int a[]=new int[n];
     for(int i=0;i<n;i++)
